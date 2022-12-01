@@ -7,8 +7,9 @@ int main () {
     int col = 3;
     int largestSum;
     int totalRow = 0;
+    int largestRow = 0;
 
-    int numbers[row][col] = {{9,9,9}, {4,5,6}, {7,8,9}};
+    int numbers[row][col] = {{9,9,1}, {9,5,6}, {7,8,9}};
 
     for (int i = 0; i < col; i++) {
         largestSum += numbers[0][i];
@@ -21,10 +22,12 @@ int main () {
         }
         if (totalRow > largestSum) {
             largestSum = totalRow;
+            largestRow = i;
         }
     }
 
-    cout << "Largest Row Sum: " << largestSum;
+    cout << "Largest Row Sum: " << largestSum << endl;
+    cout << "Largest Row: " << largestRow << endl;
 
 
 
