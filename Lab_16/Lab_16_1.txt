@@ -1,0 +1,29 @@
+Answers:
+
+line a: 
+5
+
+line b: 
+62
+
+line c:
+02
+
+line d:
+17
+
+line e:
+73
+21
+
+
+
+
+
+
+x = 7
+y = 1
+
+
+&x = 7
+y = 3
